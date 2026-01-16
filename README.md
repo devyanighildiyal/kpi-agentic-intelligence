@@ -1,8 +1,12 @@
-# KPI Intelligence & Action Agent
+# KPI Intelligence & Action Agent 🤖
 ## An intelligent internal tool for business performance monitoring
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.36+-red.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-It supports:
+
+## Features:
 
 * Track Overall Revenue and key KPIs daily 
 * Support filtering by dimensions (Product, Category, Date Range, etc.)
@@ -12,38 +16,49 @@ It supports:
 * CLI+ Streamlit dashboard
 
 
-Files:
+## 🚀 Quick Start
 
-* main.py- CLI entry point
-* kpi_data.csv- provided dataset 
-* alerts_log.csv- alert log output
-* recommendations.csv- recommendation output
-* app.py- Streamlit UI
+### Prerequisites
+- Python 3.10 or higher
+- pip (Python package manager)
 
+### Installation
 
-Setup:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/devyanighildiyal/kpi-agentic-intelligence.git
+   cd kpi-agentic-intelligence
+   ```
 
-1. Go to the file environment
-2. Run the following
-* pip install -r requirements.txt (For installing dependencies)
-* python main.py --data kpi_data.csv (To see in CLI)
-* streamlit run app.py (To see in streamlit)
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
+3. **Run the application**
+   ```bash
+   streamlit run main_app.py
+   ```
 
-Project Structure:
-
-kpi_agentic (Main Folder)-
-
-* alerts_log.csv
-* app.py
-* kpi_data.csv
-* main.py
-* README.md
-* recommendations.csv
-* requirements.txt
+4. **Open in browser**
+   - The app will automatically open at `http://localhost:8501`
 
 
-Some CLI Commands:
+## Project Structure:
+
+```
+kpi_agentic/
+├── alerts_log.csv               
+├── app.py            
+├── kpi_data.csv              
+├── main.py           
+├── README.md        
+├── recommendations.csv             
+├── requirements.txt        
+            
+```
+
+## Example CLI Commands:
 
 * show trend for Home & Kitchen products over last 14 days
 * run monitoring last 30 days
