@@ -1,5 +1,5 @@
 # KPI Intelligence & Action Agent🤖
-## An intelligent internal tool for business performance monitoring
+An intelligent internal tool for business performance monitoring
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.36+-red.svg)
