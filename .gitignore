@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime outputs
+alerts_log*.csv
+recommendations*.csv
+
+# Dataset (keep private unless explicitly allowed)
+kpi_data.csv
+
