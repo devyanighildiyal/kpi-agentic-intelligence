@@ -1,12 +1,11 @@
-# KPI Intelligence & Action Agent 🤖
+# KPI Intelligence & Action Agent🤖
 ## An intelligent internal tool for business performance monitoring
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.36+-red.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 
-## Features:
+## Features✨:
 
 * Track Overall Revenue and key KPIs daily 
 * Support filtering by dimensions (Product, Category, Date Range, etc.)
@@ -16,7 +15,7 @@
 * CLI+ Streamlit dashboard
 
 
-## 🚀 Quick Start
+## Quick Start🚀:
 
 ### Prerequisites
 - Python 3.10 or higher
@@ -44,7 +43,7 @@
    - The app will automatically open at `http://localhost:8501`
 
 
-## Project Structure:
+## Project Structure📁:
 
 ```
 kpi_agentic/
@@ -58,7 +57,7 @@ kpi_agentic/
             
 ```
 
-## Example CLI Commands:
+## Example CLI Commands 🔧:
 
 * show trend for Home & Kitchen products over last 14 days
 * run monitoring last 30 days
